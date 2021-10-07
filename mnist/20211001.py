@@ -30,6 +30,7 @@ model.compile(
 )
 model.fit(x_train, y_train, batch_size=32, epochs=5, verbose=2)
 model.evaluate(x_test, y_test, batch_size=32, verbose=2)
+
 numpy.set_printoptions(linewidth=numpy.inf)
 image = Image.open('input.png')
 for index, digit in enumerate(digit_segmentation(image)):

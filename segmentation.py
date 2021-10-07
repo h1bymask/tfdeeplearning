@@ -67,7 +67,6 @@ def digit_segmentation(img):
     maxHeight = 300
     padding = 10
 
-
     # Retrieve the area that meets the conditions
     for contourindex, contour in enumerate(contours):
         (x, y, w, h) = cv2.boundingRect(contour)
