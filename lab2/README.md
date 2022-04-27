@@ -10,10 +10,8 @@ CSV-файл с числовыми значениями ЧСС, калорийн
 <br>
 Предложения:
 <br>
-Ипользовать известные вам методов Pandas
+Ипользовать известные вам методы Pandas
 <br>
 Метод k средних
 <br>
-Использовать hadoop-streaming jar
-<br>
-Использовать модуль Python hdfs
+Использовать hadoop-streaming jar, либо модуль Python hdfs, либо Spark (либо его Python-биндинг, либо Spark SQL).
